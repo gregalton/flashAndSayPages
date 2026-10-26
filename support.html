@@ -25,7 +25,7 @@
   <div class="card"><strong>Does the app collect data?</strong><p>No. See the <a href="privacy.html">privacy policy</a>.</p></div>
 
   <h2>Contact us</h2>
-  <!-- PLACEHOLDER (Greg to confirm): contact email. This static form opens the visitor's email app;
+  <!-- This static form opens the visitor's email app;
        nothing is sent to a server. Replace with a form service later if you prefer. -->
   <div class="card">
     <form id="contact" novalidate>
@@ -36,7 +36,7 @@
       <label for="msg">Message</label>
       <textarea id="msg" name="msg" rows="6" placeholder="How can we help? Please don't include a child's personal information."></textarea>
       <p><button class="btn" type="submit">Open email to send</button></p>
-      <p class="muted">This opens your email app with the message filled in. Or email us directly: <a href="mailto:gregaltonmail@gmail.com?subject=Flash%20%26%20Say%20support">gregaltonmail@gmail.com</a></p>
+      <p class="muted">This opens your email app with the message filled in. Or email us directly: <a href="mailto:gregaltonios@gmail.com?subject=Flash%20%26%20Say%20support">gregaltonios@gmail.com</a></p>
     </form>
   </div>
 </main>
@@ -45,7 +45,7 @@ document.getElementById('contact').addEventListener('submit', function (e) {
   e.preventDefault();
   var f = e.target, subject = 'Flash & Say support' + (f.topic.value ? ': ' + f.topic.value : '');
   var body = f.msg.value + (f.name.value ? '\n\n— ' + f.name.value : '');
-  location.href = 'mailto:gregaltonmail@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  location.href = 'mailto:gregaltonios@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 });
 </script>
 <footer>© 2026 Greg Alton · Flash &amp; Say · <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a></footer>

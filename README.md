@@ -12,6 +12,6 @@ Expected URLs: https://gregalton.github.io/flashAndSayPages/ plus `privacy.html`
 To publish: push to GitHub, then go to Settings › Pages › Deploy from branch › `main` / root.
 
 TODO (Greg):
-- Confirm the contact email (gregaltonmail@gmail.com is a placeholder).
+- Contact email: gregaltonios@gmail.com (confirmed).
 - Replace the "Coming soon" button with the App Store link once the app is live.
 - Have the privacy policy reviewed before submission.
